@@ -1,0 +1,23 @@
+#services{
+    height: 700px;
+}
+
+
+.services-content{
+    position: relative;
+    margin: 100px auto;
+
+    .cybr-btn{
+        margin-top: 100px;
+        z-index: 3;
+    }
+}
+
+.services-title{
+    text-align: center;
+}
+
+.services-img{
+    position: absolute;
+    top: 150px;
+}

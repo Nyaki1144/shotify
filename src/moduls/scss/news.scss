@@ -1,0 +1,44 @@
+#news{
+    height: 700px;
+    margin-top: 150px; 
+    margin-bottom: 150px; 
+
+
+    .wrapper{
+        display: flex;
+    }
+}
+
+.news-container{
+    width: 100%;
+    height: 500px;
+    // background-color: $blueLite;
+  
+    .news-title{
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .news-slider{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 150px auto;
+    }
+
+    .news-block{
+        width: 40%;
+
+        .news-subtitle{
+            font-size: 15px;
+            line-height: 28px;
+            color: #6bcdff;
+            margin: 50px auto;
+        }
+
+    }
+
+
+}
+
